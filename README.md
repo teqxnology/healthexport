@@ -1,2 +1,156 @@
-# healthexport
-Android app to export your **Health Connect** data to Google Sheets or CSV. Choose which health metrics to include. Flexibility to select a date range. Supports Activity, Body Measurements, Sleep, Nutrition, Cycle Tracking, and Vitals with per-day summaries.
+# Health Export
+
+### Description
+export your Health Connect data to Google Sheets or CSV. Choose which health metrics to include. Flexibility to select a date range. Supports Activity, Body Measurements, Sleep, Nutrition, Cycle Tracking, and Vitals with per-day summaries.
+
+###
+
+<img width="1440" height="606" alt="Health Connect" src="https://github.com/user-attachments/assets/3761cce5-f5f2-4090-be70-da1374c58c2c" />
+
+
+## Download & Install (Android)
+
+### 1) Download the APK
+1. Go to the GitHub page: **Releases** → download the latest `*.apk`
+2. Save it to your phone (Downloads is fine)
+
+### 2) Install the APK (sideload)
+1. Tap the downloaded APK
+2. If Android blocks it:
+   - Go to **Settings → Security / Privacy → Install unknown apps**
+   - Allow installs for the app you used to open the APK (usually **Chrome** or **Files**)
+
+---
+
+## Create a Google Spreadsheet + Get the Sheet ID
+
+### 1) Create a new spreadsheet
+1. Open Google Sheets: https://sheets.google.com
+2. Click **Blank** (or create a new spreadsheet in Google Drive)
+3. Name it (example: `Health Export`)
+
+### 2) Get the Spreadsheet ID
+1. Open the spreadsheet in a browser
+2. Copy the ID from the URL:
+
+Example URL:
+```
+https://docs.google.com/spreadsheets/d/1AbCDefGhIJkLmNoPqrStuVwxYZ1234567890/edit#gid=0
+```
+
+✅ **Spreadsheet ID** is the part between `/d/` and `/edit`:
+```
+1AbCDefGhIJkLmNoPqrStuVwxYZ1234567890
+```
+
+3. Paste this into the app’s **Google Sheet ID** field
+
+---
+
+## Authorize Google Sign-In (Google Sheets access)
+
+### 1) Connect your Google account
+1. In the app, tap **Connect Google Account**
+2. Choose the Google account you want to use
+
+### 2) Approve permissions
+During sign-in you’ll see a consent prompt asking to allow access to Google Sheets.
+
+✅ Tap **Allow** to grant access so the app can write into your spreadsheet.
+
+> ⚠️ If you don’t approve, exports to Google Sheets will fail.
+
+---
+
+## Authorize Health Connect (read permissions)
+
+### 1) Install/Update Health Connect
+- Make sure **Health Connect** is installed and set up on your phone (some Android versions integrate it into Settings).
+- Health Connect is available on Play Store for older versions of Android
+
+### 2) Grant permissions
+When prompted (or if you denied earlier):
+1. Open **Health Connect**
+2. Go to **App permissions**
+3. Find this app
+4. Allow read permissions for the data you want to export (Steps, Sleep, Heart Rate, etc.)
+
+✅ Without permission, that data type will export as empty.
+
+---
+
+## High-volume data warnings (important)
+
+Some metrics generate *a lot* of records and can:
+- take much longer,
+- drain battery,
+- trigger Health Connect rate limits,
+- produce very large CSV files.
+
+⚠️ **High-volume examples:**
+- Heart rate (min/max/avg)
+- HRV (min/max/avg)
+- Oxygen saturation (min/max/avg)
+- Respiratory rate (min/max/avg)
+
+**Recommendation:** For large date ranges (especially **All time**), enable these only if you really need them.
+
+---
+
+## Safer Export Mode (slower but more reliable)
+
+The **Safer export mode** toggle is designed to reduce rate-limit errors by exporting more slowly.
+
+When enabled, the app will:
+- ⏳ use **larger time chunks**
+- 🐢 add a **2-second delay between chunks**
+- 📄 tune page sizes to reduce request bursts
+
+✅ Use this if you frequently see:
+> “Rate limited request quota has been exceeded…”
+
+> ⏱️ Expect exports to take longer—this is normal.
+
+---
+
+## Recommended workflow (best practice)
+
+### ✅ Preferred approach: Bulk CSV first, then Auto Export for ongoing updates
+This avoids Google Sheets API limits and is usually faster for large history exports.
+
+#### Step 1: Export bulk history to CSV
+1. Select your data categories + metrics
+2. Choose a large date range (e.g., **All time**)
+3. Tap **Export CSV to Downloads**
+4. The CSV file(s) will be saved to your phone’s **Downloads** folder
+
+#### Step 2: Import CSV into Google Sheets (bulk load)
+Options:
+- Upload CSV to Google Drive → open with Google Sheets
+- Or import from within Google Sheets (File → Import)
+
+✅ This is the best way to load large historical datasets.
+
+#### Step 3: Use “Export to Google Sheets” for incremental updates
+After the bulk import:
+1. Use a smaller date range (e.g., last 7/30 days)
+2. Tap **Export to Google Sheets**
+3. Repeat as needed
+
+#### Step 4: Enable Auto Export for ongoing sync
+1. Enable **Auto Export**
+2. Choose a frequency (e.g., every 12 or 24 hours)
+3. Keep date range reasonable (small ranges recommended)
+
+---
+
+## Tips & Troubleshooting
+
+### “Only Vitals exported”
+- Ensure you enabled at least one metric under each category (e.g., Steps for Activity, Sleep Sessions for Sleep, Weight for Body).
+
+### Rate limit errors
+- Turn on **Safer export mode**
+- Reduce date range
+- Disable high-volume metrics
+- Try again later (quota replenishes over time)
