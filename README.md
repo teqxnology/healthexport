@@ -1,11 +1,13 @@
+
+<img width="720" height="303" alt="Health Connect" src="https://github.com/user-attachments/assets/3761cce5-f5f2-4090-be70-da1374c58c2c" />
+
 # Health Export
 
 ### Description
 export your Health Connect data to Google Sheets or CSV. Choose which health metrics to include. Flexibility to select a date range. Supports Activity, Body Measurements, Sleep, Nutrition, Cycle Tracking, and Vitals with per-day summaries.
 
-###
-
-<img width="1440" height="606" alt="Health Connect" src="https://github.com/user-attachments/assets/3761cce5-f5f2-4090-be70-da1374c58c2c" />
+### App Information
+Android 9+
 
 
 ## Download & Install (Android)
