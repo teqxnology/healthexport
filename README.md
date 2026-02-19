@@ -54,7 +54,8 @@ Android 9+
 ## Download & Install (Android)
 
 ### 1) Download the APK
-1. Go to the GitHub page: **Releases** → download the latest `*.apk` (_Bottom right side of Github repo_)
+1. Go to the GitHub page: **Releases** → download the latest `*.apk`
+   (_Bottom right side of Github repo_)
 2. Save it to your phone (Downloads is fine)
 
 ### 2) Install the APK (sideload)
