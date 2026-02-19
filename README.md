@@ -1,10 +1,51 @@
 
-<img width="720" height="303" alt="Health Connect" src="https://github.com/user-attachments/assets/3761cce5-f5f2-4090-be70-da1374c58c2c" />
+<img width="360" height="151" alt="Health Connect" src="https://github.com/user-attachments/assets/3761cce5-f5f2-4090-be70-da1374c58c2c" />
 
 # Health Export
 
 ### Description
-export your Health Connect data to Google Sheets or CSV. Choose which health metrics to include. Flexibility to select a date range. Supports Activity, Body Measurements, Sleep, Nutrition, Cycle Tracking, and Vitals with per-day summaries.
+export your Health Connect data to Google Sheets or CSV. Choose which health metrics to include. Flexibility to select a date range. Supports the following data types
+
+<img width="354" height="237" alt="app-diagram" src="https://github.com/user-attachments/assets/ebb5ec1d-2821-4a83-ba15-b6f9ba9c246b" />
+
+##### Activity
+- Active calories burned
+- Distance
+- Elevation gained
+- Exercise sessions
+- Floors climbed
+- Power
+- Speed
+- Steps
+- Total calories burned
+- VO2 max
+- Wheelchair pushes
+
+##### Body measurements
+- Body fat %
+- Bone mass
+- Height
+- Lean body mass
+- Weight
+
+##### Cycle tracking
+- Cervical mucus
+- Menstruation
+- Ovulation test
+- Sexual activity
+
+##### Sleep
+- Sleep sessions (light, deep, REM sleep & awake)
+
+##### Vitals
+- Blood glucose
+- Blood pressure
+- Body temperature
+- Heart rate (min/max/avg)
+- Heart rate variability (min/max/avg)
+- Oxygen saturation (min/max/avg)
+- Respiratory rate (min/ax/avg)
+- Resting heart rate
 
 ### App Information
 Android 9+
@@ -13,7 +54,7 @@ Android 9+
 ## Download & Install (Android)
 
 ### 1) Download the APK
-1. Go to the GitHub page: **Releases** → download the latest `*.apk`
+1. Go to the GitHub page: **Releases** → download the latest `*.apk` (_Bottom right side of Github repo_)
 2. Save it to your phone (Downloads is fine)
 
 ### 2) Install the APK (sideload)
