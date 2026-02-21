@@ -49,12 +49,8 @@ Export your Health Connect data to Google Sheets or CSV. And because it pull dat
 
 ### App Information
 Android 9+
-
-<img width="243" height="442" alt="Screenshots_2026-02-18-22-32-00" src="https://github.com/user-attachments/assets/bf72294b-deb2-4521-8f26-3e71b078db1c" />
-<img width="243" height="412" alt="Screenshots_2026-02-18-22-32-26" src="https://github.com/user-attachments/assets/86a978f5-63ca-4aa7-9041-e3524d0b3d49" />
-<img width="243" height="471" alt="Screenshots_2026-02-18-22-32-45" src="https://github.com/user-attachments/assets/b4562d69-7526-4db2-9e4f-ca06ad5963f6" />
-<img width="385" height="743" alt="Screenshots_2026-02-18-22-33-00" src="https://github.com/user-attachments/assets/6ad5aa06-1524-468d-a762-c7057c29c2fc" />
-
+<img width="1080" height="2340" alt="Screenshot_20260220-223508" src="https://github.com/user-attachments/assets/c6e3f62c-c198-46ec-a83a-a85a2ee45601" />
+<img width="1080" height="2340" alt="Screenshot_20260220-223508" src="https://github.com/user-attachments/assets/c6e3f62c-c198-46ec-a83a-a85a2ee45601" />
 
 
 
