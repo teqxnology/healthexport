@@ -49,17 +49,20 @@ Export your Health Connect data to Google Sheets or CSV. And because it pull dat
 
 ### App Information
 Android 9+
-<img width="1080" height="2340" alt="Screenshot_20260220-223508" src="https://github.com/user-attachments/assets/c6e3f62c-c198-46ec-a83a-a85a2ee45601" />
-<img width="1080" height="2340" alt="Screenshot_20260220-223508" src="https://github.com/user-attachments/assets/c6e3f62c-c198-46ec-a83a-a85a2ee45601" />
-
+<img width="324" height="702" alt="Screenshot_20260220-223508" src="https://github.com/user-attachments/assets/c6e3f62c-c198-46ec-a83a-a85a2ee45601" />
+<img width="324" height="702" alt="Screenshot_20260220-223517" src="https://github.com/user-attachments/assets/7f79e9fe-6697-4ff9-ba97-6d46aba4f24c" />
+<img width="324" height="702" alt="Screenshot_20260220-223536" src="https://github.com/user-attachments/assets/84c377d2-49b1-4b86-8c2b-28476806e0ae" />
+<img width="324" height="702" alt="Screenshot_20260220-223545" src="https://github.com/user-attachments/assets/45169032-16bb-4d9b-9699-f628ca2c24fe" />
+<img width="324" height="702" alt="Screenshots_2026-02-20-22-37-21" src="https://github.com/user-attachments/assets/fecc0c29-b85b-4b81-90a3-30e02c06107c" />
 
 
 ## Download & Install (Android)
 
 ### 1) Download the APK
+**UPDATE: SOON AVAILABLE ON PLAY STORE: HEALTH DATA EXPORT**
 1. Go to the GitHub page: **Releases** → download the latest `*.apk`
    (_Bottom right side of Github repo_)
-2. Save it to your phone (Downloads is fine)
+2. Save it to your phone
 
 ### 2) Install the APK (sideload)
 1. Tap the downloaded APK
@@ -118,9 +121,10 @@ During sign-in you’ll see a consent prompt asking to allow access to Google Sh
 ### 2) Grant permissions
 When prompted (or if you denied earlier):
 1. Open **Health Connect**
-2. Go to **App permissions**
-3. Find this app
-4. Allow read permissions for the data you want to export (Steps, Sleep, Heart Rate, etc.)
+2. Settings > Apps > App info > Health Data Export > Open
+3. Go to **App permissions**
+4. Find this app
+5. Allow read permissions for the data you want to export (Steps, Sleep, Heart Rate, etc.)
 
 ✅ Without permission, that data type will export as empty.
 
@@ -187,7 +191,7 @@ After the bulk import:
 #### Step 4: Enable Auto Export for ongoing sync
 1. Enable **Auto Export**
 2. Choose a frequency (e.g., every 12 or 24 hours)
-3. Keep date range reasonable (small ranges recommended)
+3. **Keep date range reasonable** (e.g., 7 days. Small ranges recommended)
 
 ---
 
