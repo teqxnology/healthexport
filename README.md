@@ -56,19 +56,11 @@ Android 9+
 <img width="324" height="702" alt="Screenshots_2026-02-20-22-37-21" src="https://github.com/user-attachments/assets/fecc0c29-b85b-4b81-90a3-30e02c06107c" />
 
 
-## Download & Install (Android)
+## Download & Install (Android only)
 
-### 1) Download the APK
-**UPDATE: SOON AVAILABLE ON PLAY STORE: HEALTH DATA EXPORT**
-1. Go to the GitHub page: **Releases** → download the latest `*.apk`
-   (_Bottom right side of Github repo_)
-2. Save it to your phone
-
-### 2) Install the APK (sideload)
-1. Tap the downloaded APK
-2. If Android blocks it:
-   - Go to **Settings → Security / Privacy → Install unknown apps**
-   - Allow installs for the app you used to open the APK (usually **Chrome** or **Files**)
+<a href="https://play.google.com/store/apps/details?id=com.teqxnology.healthdataexport&pcampaignid=web_share">
+  <img src="https://github.com/user-attachments/assets/69c6cffb-093c-4a34-b896-0523709117b4" alt="Get it on Google Play" width="528" height="343">
+</a>
 
 ---
 
