@@ -1,6 +1,10 @@
 
 <img width="360" height="151" alt="Health Connect" src="https://github.com/user-attachments/assets/3761cce5-f5f2-4090-be70-da1374c58c2c" />
 
+<a href="https://play.google.com/store/apps/details?id=com.teqxnology.healthdataexport&pcampaignid=web_share">
+  <img src="https://github.com/user-attachments/assets/1cb8443a-2312-48f4-a31b-e2eb52a95fce" alt="Get it on Google Play" width="343" height="343">
+</a>
+
 # Health Data Export
 
 ### Description
